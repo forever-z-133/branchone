@@ -303,7 +303,7 @@ p {
     box-shadow: 0 0 10px #333;
     z-index: 999;
     margin-top: 0 !important;
-    padding: 20px 0 !important;
+    /* padding: 20px 0 !important; */
     background: #fff !important;
     position: fixed !important;
 }
@@ -341,7 +341,7 @@ p {
     background: #fff;
     border: none;
     border-radius: 0;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     font-weight: 600;
     margin-bottom: 0;
 }
