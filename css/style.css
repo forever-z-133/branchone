@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 15px;
+    margin: 0;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.5px;
@@ -71,7 +71,7 @@ input:-webkit-autofill:focus {
 }
 
 .btn {
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     font-weight: 300;
     border-radius: 0;
 }
@@ -135,7 +135,7 @@ p {
 }
 /*** Heading Lines ***/
 .title-head{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .line-heading .line-left,
@@ -662,9 +662,19 @@ p {
     font-size: 18px;
     color: #555555;
     margin: 15px 0;
+    text-align: center;
+    font-size: 12px;
 }
 .section-2-box-left a{
     margin: 15px 0;
+    margin: 0 auto;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin-bottom: 15px;
 }
 .section-2-box-right{
     background-color: #00AEF0;
@@ -767,15 +777,17 @@ p {
     font-weight: normal;
 }
 .section-4 ul.section {
-    float: left;
+    /* float: left; */
     width: 100%;
-    padding: 0 3% 22px 0;
-    margin: 25px 0 0 0;
+    /* margin: 25px 0 0 0; */
     background: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .section-4 .section li {
-    float: left;
+    /* float: left; */
     padding: 0;
     margin: 0;
     width: 75%;
@@ -1050,7 +1062,7 @@ p {
 }
 
 .footer-top p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0;
 }
 
@@ -1069,6 +1081,10 @@ p {
 }
 .footer-top-box li:last-child{
     border-bottom: 0!important;
+    /* padding: 15px 0; */
+}
+.recent-post-widget{
+    padding:5px 0;
 }
 .footer-top-box h5{
     margin-bottom: 5px;
@@ -1141,6 +1157,7 @@ p {
 
 .footer-top ul li a {
     color: #7e7e7e;
+    font-size: 12px;
 }
 
 .footer-top ul li a:hover {
@@ -1153,6 +1170,7 @@ p {
     padding: 5px;
     float: left;
     border: 1px solid #7e7e7e;
+    font-size: 12px;
 }
 
 .tag a:hover {
@@ -1513,7 +1531,8 @@ p {
 
 .inner-title {
     background: #00aef0;
-    padding: 30px 0;
+    padding: 15px 0;
+    padding-bottom: 0;
 }
 
 .inner-title h2 {
@@ -1813,10 +1832,10 @@ p {
 
 .section22{
     background:#f8f8f8;
-    padding: 50px 0;
+    padding: 15px 0;
 }
 .section-22-box-text-cont{
-    padding: 100px 0;
+    padding: 15px 0;
 }
 /************************************
 31)Section 23
@@ -1844,4 +1863,9 @@ p {
     width:150px;
     height: 50px;
     display: inline-block;
+}
+.title-add{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
 }
