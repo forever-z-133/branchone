@@ -328,7 +328,7 @@ p {
     font-size: 12px;
     font-weight: 400;
     color: #777;
-    background: #fff;
+    background: #dedede;
     padding: 10px;
 }
 
@@ -369,7 +369,7 @@ p {
 }
 
 .navbar-menu .navbar-nav>li>.dropdown-menu {
-    margin-top: 26px;
+    margin-top: -35px;
 }
 
 
@@ -1916,8 +1916,13 @@ p {
     .list_case ul li:nth-child(3n+3){margin-right: 10px;}
     .list_case ul li:nth-child(2n+2){margin-right: 0px;}
     .head .container li{
-        height: 50px;
-        line-height: 50px;
+        /* height: 28px; */
+        /* line-height: 50px; */
+    }
+    .head .container .dropdown ul{
+        /* height: 28px; */
+        /* line-height: 50px; */
+        margin-top: 0px;
     }
     .head .container li a{
         line-height: 50px;
@@ -1929,3 +1934,15 @@ p {
         height: 50px;
     }
     }
+    /* .dropdown3{
+
+position: absolute;
+
+right: 0;
+
+top: 0;
+
+}
+.dropdown3-wrap{
+    position:relative;
+} */

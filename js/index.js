@@ -1,0 +1,14 @@
+($(function(){
+    console.log(1);
+    $('.dropdown3').hide();
+    $('#dropdown3-wrap').mouseover(function(){
+        $('.dropdown3').show();
+    }
+    )
+    $('.dropdown3').hover(function(){
+        $('.dropdown3').show();
+    },function(){
+        $('.dropdown3').hide(500);
+    }
+        )
+}))
