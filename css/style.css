@@ -1866,6 +1866,10 @@ p {
     height: 100px;
     display: inline-block;
 }
+.navbar-text {
+    line-height: 76px;
+    font-size: 1.4em;
+}
 .title-add{
     font-size: 16px;
     font-weight: bold;
