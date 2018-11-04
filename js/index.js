@@ -6,7 +6,8 @@
     if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
         /*window.location.href="你的手机版地址";*/
         $('.dropdown3').hide();
-        $('#dropdown3-wrap').on('tap',function(){
+        $('#dropdown3-wrap').on('click',function(){
+            
             console.log($('#dropdown3-wrap').attr('flag'));
             if($('#dropdown3-wrap').attr('flag')=='off'){
                 $('.dropdown3').show();
