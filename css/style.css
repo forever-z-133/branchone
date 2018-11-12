@@ -2,6 +2,13 @@
  01)Common CSS 
 *************************************/
 
+.text {
+    word-wrap: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -20,6 +27,9 @@
 img {
     max-width: 100%;
     height: auto;
+}
+.col-md-25 {
+    width: 20%;
 }
 
 h1,
@@ -654,7 +664,6 @@ p {
     font-size: 14px;
 }
 
-
 /************************************
 07)Section 2
 *************************************/
@@ -795,12 +804,8 @@ p {
     /* float: left; */
     padding: 0;
     margin: 0;
-    width: 75%;
+    width: 80%;
     list-style: none;
-}
-.section-4 .section li a {
-    font-size: 12px;
-    color: #fff;
 }
 .section-4 .section li.left {
     float: left;
@@ -818,6 +823,11 @@ p {
 }
 .border-bottom{
     border-bottom: 1px solid #eeeeee;
+}
+.index-info-btn {
+    color: #00AEF0;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /************************************
