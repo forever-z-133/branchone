@@ -12,6 +12,30 @@ Designed By: rkwebdesigns
 
 */
 
+var slideData = [
+	{ img: 'images/banner/8.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/7.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/3.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/4.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/5.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/1.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/2.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+	{ img: 'images/banner/6.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
+];
+slideData = slideData.sort(function(){
+  return Math.random() * 2 - 1;
+});
+$(function(){
+  var tpl = document.querySelector('#tpl-slide-item').innerHTML;
+  var html = slideData.reduce(function(re, item) {
+    var $item = $(tpl);
+    $item.css({ backgroundImage: 'url(' + item.img + ')' });
+    $item.find('.slide-title').text(item.title);
+    $item.find('.slide-sub-title').text(item.desc);
+    return re + $item.prop('outerHTML');
+  }, '');
+  $('.carousel-inner').append(html);
+});
 
 
 (function ($) {

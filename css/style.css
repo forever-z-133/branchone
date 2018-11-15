@@ -1184,6 +1184,13 @@ p {
     color: #fff;
 }
 
+.footer-top .col-lg-4 {
+    width: 30%;
+}
+.footer-top .col-lg-2 {
+    width: 18%;
+}
+
 .tag a {
     margin: 5px;
     color: #ccc;
@@ -1856,6 +1863,13 @@ p {
 .section22{
     background:#f8f8f8;
     padding: 15px 0;
+}
+.section22 img {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.section22 img:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
 }
 .section-22-box-text-cont{
     padding: 15px 0;
