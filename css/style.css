@@ -1864,10 +1864,12 @@ p {
     background:#f8f8f8;
     padding: 15px 0;
 }
+#section2 img,
 .section22 img {
-    border: 1px solid #ddd;
+    border: 1px solid #dedede;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
+#section2 img:hover,
 .section22 img:hover {
     box-shadow: 0 0 20px rgba(0,0,0,.2);
 }
