@@ -14,9 +14,7 @@ Designed By: rkwebdesigns
 
 var slideData = [
 	{ img: 'images/banner/8.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
-	{ img: 'images/banner/7.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
 	{ img: 'images/banner/3.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
-	{ img: 'images/banner/4.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
 	{ img: 'images/banner/5.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
 	{ img: 'images/banner/1.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
 	{ img: 'images/banner/2.jpg', title: '智能 改变生活', desc: '您身边的智能专家' },
