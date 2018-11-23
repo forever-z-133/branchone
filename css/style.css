@@ -2132,3 +2132,11 @@ p {
 	padding: 5px 12px;
 	background: #00aef0
 }
+.recent-post-widget .widget-content {
+	display: inline-block;
+}
+@media (min-width: 992px) {
+	#footer-top .col-lg-2 .footer-top-box {
+		margin-left: -20px;
+	}
+}
